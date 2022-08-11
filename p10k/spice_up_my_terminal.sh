@@ -67,7 +67,7 @@ printf '# Set the theme to "OneHalfLight"
 # sets BAT_CONFIG_PATH on ~/.zshrc if it's not already there and set alias
 if ! grep -Fq -m 1 "BAT_CONFIG_PATH" ~/.zshrc; then
   printf '\n\nexport BAT_CONFIG_PATH=~/.bat.conf' >> ~/.zshrc
-  printf '\n\nalias cat="bat -n"' >> ~/.zshrc
+  printf '\nalias cat="bat -n"\n' >> ~/.zshrc
 fi
 
 # finish setting up fzf
