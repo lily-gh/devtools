@@ -84,6 +84,8 @@ Python Formatter,open,https://www.cleancss.com/python-beautify/
 ## Bash Scripts
 
 ### Findr
+🚨**NOTE:** _Please don't use this, there's probably a better tool for this already, I just coded it up as an exercise._
+
 Finds the number of occurrences of a string in all files of a specific extension in a folder and its subfolders. The output is the number of occurrences and the filename where occurrences were found.
 
 Use case: useful when you have a configuration project with many config files and need to change a reference (e.g. if something was renamed).
