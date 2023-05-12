@@ -3,7 +3,7 @@
 #############################################################################################
 #
 # Script to spice up the terminal with Zsh, Oh My Zsh, Powerlevel10k, exa, bat and fzf.
-# More details on accompanying article: https://www.linkedin.com/pulse/5min-guide-awesome-terminal-rafa-oliveira 
+# More details on accompanying article: https://www.linkedin.com/pulse/5min-guide-awesome-terminal-lily-ghliveira 
 #
 #
 # Author: Rafa Oliveira
@@ -35,7 +35,7 @@ fi
 sed -i '' '/^ZSH_THEME=/s/.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 
 # copies my Powerlevel10k configuration
-curl https://raw.githubusercontent.com/rafa-o/devtools/master/p10k/.p10k.zsh >| ~/.p10k.zsh
+curl https://raw.githubusercontent.com/lily-gh/devtools/main/p10k/.p10k.zsh >| ~/.p10k.zsh
 
 # sources ~/.p10k.zsh on ~/.zshrc
 if ! grep -Fq -m 1 "source ~/.p10k.zsh" ~/.zshrc; then

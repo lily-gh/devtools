@@ -6,7 +6,7 @@ For this terminal configuration we'll be using [Zsh](https://www.zsh.org/), [Oh 
 # TL;DR
 In a rush? No problem! I've made a script to automatically install and setup the tools mentioned in this article, simply run the following command and you should be good to go:
 ```bash
- sh -c "$(curl -fsSL https://raw.githubusercontent.com/rafa-o/devtools/master/p10k/spice_up_my_terminal.sh)"
+ sh -c "$(curl -fsSL https://raw.githubusercontent.com/lily-gh/devtools/master/p10k/spice_up_my_terminal.sh)"
 ```
 
 ⚠️ _Note:_ you'll still need to manually select the `MesloLGS NF` font family in your terminal's settings.
@@ -43,7 +43,7 @@ Install the font files by double clicking each one and then clicking on "Install
 
 Configure your terminal to use the downloaded font by going into your terminal settings and choosing the "MesloLGS NF" font family. If you're not sure about how to set up downloaded font in your terminal, take a look on [the official Powerlevel10k guide](https://github.com/romkatv/powerlevel10k#manual-font-installation) for how to set it up.
 
-With these steps done, you can [copy my Powerlevel 10k configuration](https://raw.githubusercontent.com/rafa-o/devtools/master/p10k/.p10k.zsh) into your `~/.p10k.zsh` file to have the same settings as I do. (create the file in case it doesn't exist yet.)
+With these steps done, you can [copy my Powerlevel 10k configuration](https://raw.githubusercontent.com/lily-gh/devtools/main/p10k/.p10k.zsh) into your `~/.p10k.zsh` file to have the same settings as I do. (create the file in case it doesn't exist yet.)
 
 If you copied my settings file with the link above, make sure to also add these lines to your `~/.zshrc` file in order make p10k's configuration wizard not show up every time you start your terminal:
 ```bash
@@ -54,7 +54,7 @@ If you copied my settings file with the link above, make sure to also add these 
 Alternatively, you can start p10k's configuration wizard with the `p10k configure` command in your terminal and follow the prompts to try out different configuration options.
 
 Now your terminal should already look something like this:
-![Powerlevel10k](https://github.com/rafa-o/devtools/blob/img/img/p10k-preview.png)
+![Powerlevel10k](https://github.com/lily-gh/devtools/blob/img/img/p10k-preview.png)
 _Note: restart your terminal if the changes are not applied._
 
 
@@ -74,7 +74,7 @@ fi
 
 Feel free to change these configurations based on exa's [documentation](https://the.exa.website/features).
 This is how file listing should look like with above settings:
-![File listing with exa](https://github.com/rafa-o/devtools/blob/img/img/exa-examples.png)
+![File listing with exa](https://github.com/lily-gh/devtools/blob/img/img/exa-examples.png)
 
 
 
@@ -86,7 +86,7 @@ _Keep reading for a few extra things._
 ## Use bat 🦇 instead of cat 🐈
 [Bat](https://github.com/sharkdp/bat) adds syntax highlighting when listing the contents of a file.
 This is how it looks like:
-![Using bat to see file contents](https://github.com/rafa-o/devtools/blob/img/img/bat-example.png)
+![Using bat to see file contents](https://github.com/lily-gh/devtools/blob/img/img/bat-example.png)
 
 
 Install it with homebrew:
@@ -127,7 +127,7 @@ $(brew --prefix)/opt/fzf/install
 ```
 
 That's it, this is how `fzf` search looks like:
-![fzf example](https://github.com/rafa-o/devtools/blob/img/img/fzf-example.png)
+![fzf example](https://github.com/lily-gh/devtools/blob/img/img/fzf-example.png)
 
 ## Changing Powerlevel10k colors
 If you'd like to change the colors used for Powerlevel10k, you can do so by changing them in your `~/.p10k.zsh` configuration file.
@@ -150,7 +150,7 @@ for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6
 ```
 
 For reference, this is the output of the command in my terminal:
-![Colors available to use with Powerlevel10k](https://github.com/rafa-o/devtools/blob/img/img/p10k-colors.png)
+![Colors available to use with Powerlevel10k](https://github.com/lily-gh/devtools/blob/img/img/p10k-colors.png)
 
 ## Hyperterm summon
 If you're also using [Hyper.is](https://hyper.is/) as your terminal, I highly recommend installing [hyperterm-summon](https://github.com/soutar/hyperterm-summon), it enables you to summon the terminal from anywhere with a keyboard shortcut.
