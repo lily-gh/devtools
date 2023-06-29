@@ -47,7 +47,9 @@ Set of custom keyboard shortcuts that helps you become more productive, especial
 | Split vertically                                                          | `⌥` + `shift` + `s`, `v`     |
 | Split horizontally                                                        | `⌥` + `shift` + `s`, `h`     |
 | Git annotate                                                              | `⌥` + `shift` + `b`          |
-| Run with coverage                                                         | `ctrl` + `c`                 |
+| File Structure                                                            | `⌥` + `shift` + `v`, `m`     |
+| Evaluate Expression                                                       | `⌥` + `shift` + `e`          |
+| Find Usages                                                               | `⌥` + `shift` + `v`, `u`     |
 
 
 ## Anne Pro 2 settings

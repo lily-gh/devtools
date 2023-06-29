@@ -6,7 +6,7 @@
 # More details on accompanying article: https://www.linkedin.com/pulse/5min-guide-awesome-terminal-lily-ghliveira 
 #
 #
-# Author: Rafa Oliveira
+# Author: Lily Oliveira
 #
 #############################################################################################
 
@@ -57,8 +57,8 @@ fi' >> ~/.zshrc
 fi
 
 # create bat config file
-printf '# Set the theme to "OneHalfLight"
---theme="OneHalfLight"
+printf '# Set the theme to "OneHalfDark"
+--theme="OneHalfDark"
 
 # Remove paging by default
 --paging=never
