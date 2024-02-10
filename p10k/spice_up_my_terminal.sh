@@ -3,7 +3,7 @@
 #############################################################################################
 #
 # Script to spice up the terminal with Zsh, Oh My Zsh, Powerlevel10k, exa, bat and fzf.
-# More details on accompanying article: https://www.linkedin.com/pulse/5min-guide-awesome-terminal-lily-ghliveira 
+# 
 #
 #
 # Author: Lily Oliveira
@@ -11,7 +11,7 @@
 #############################################################################################
 
 # installs Homebrew if brew command is not available
-command -v brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+command -v brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # install required software packages. If they're already installed, nothing will change.
 brew install zsh exa bat fzf
