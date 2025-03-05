@@ -1,3 +1,5 @@
+# ⚠️ Note: This is very deprecated. I'm currently working on an entirely new developer setup automation with ansible - it'll be LOVELY when it's ready.
+
 # Devtools
 
 ## Sublime Text Macros
