@@ -1,4 +1,4 @@
-# ⚠️ Note: This is very deprecated. I'm currently working on an entirely new developer setup automation with ansible - it'll be LOVELY when it's ready.
+# ⚠️ Note: A lot of this is now deprecated as I moved on to different tools (e.g. I now use VS Code instead of Sublime). I'm currently working on an entirely new developer setup automation with ansible - it'll be LOVELY when it's ready!
 
 # Devtools
 
